@@ -12,6 +12,9 @@ namespace Calculator
 {
     public partial class Form1 : Form
     {
+        double total1 = 0;
+        double total2 = 0;
+
         public Form1()
         {
             InitializeComponent();
@@ -21,8 +24,6 @@ namespace Calculator
         {
 
         }
-        double total1 = 0;
-        double total2 = 0;
 
         private void btnOne_Click(object sender, EventArgs e)
         {
